@@ -18,7 +18,7 @@ export const translations = {
       part5: " I am aiming for a bachelor's degree in ",
       part6: '"AI and Data Science."',
     },
-    viewCV: "Voir le CV",
+    viewCV: "View CV",
     bookCall: "Book a call",
     lookingFor: {
       title: "What i'm looking for ?",
@@ -43,24 +43,24 @@ export const translations = {
       subtitle: "Full of hidden talents, but here are the ones.",
       teamSpirit: {
         title: "Strong Team\nSpirit",
-        stat: "+20",
-        unit: "collabs.",
-        description:
-          "Recruitment, Staff Training and Management of +20 employees",
-      },
-      commercial: {
-        title: "Commercially\nConfident",
         stat: "+10",
         unit: "years",
         description:
-          "Experience in commerce, B2B, B2C, automotive, digital services, and energy.",
+          "Contributed to the administration and support of a sales team.",
+      },
+      commercial: {
+        title: "User-Centric\nApproach",
+        stat: "+3",
+        unit: "projects",
+        description:
+          "Creation of useful and optimized tools, designed based on usage, data, and business objectives.",
       },
       disciplined: {
         title: "Disciplined &\nPersistent",
         stat: "+9",
         unit: "years",
         description:
-          "As a business owner, 0 failures, only learning experiences and a few successes",
+          "As a freelancer, 0 failures, only learning experiences and a few successes",
       },
     },
     question: "Do you think it could work between us ?",
