@@ -16,8 +16,8 @@ const projectCards: ProjectCardData[] = [
   {
     title: { en: "LeadMagnet", fr: "LeadMagnet" },
     description: {
-      en: "A lead magnet for naturopaths, data collection via a quiz-style form, scoring and calculation of results, drafting of a detailed report by AI, and sending by email.",
-      fr: "Un lead magnet pour naturopathes, collecte de données via un formulaire type quiz, scoring et calcul des résultats, rédaction d'un rapport détaillé par IA, et envoi par email.",
+      en: "Lead magnet for naturopaths, data collection via quiz-style form, scoring and calculation of results, drafting detailed report by AI, and sending by email.",
+      fr: "Lead magnet pour naturopathes, collecte données via formulaire type quiz, scoring et calcul des résultats, rédaction rapport  par IA, et envoi par email.",
     },
     features: {
       en: ["Algorithms", "AI Implementation", "0 Vibe Coding"],
@@ -25,7 +25,7 @@ const projectCards: ProjectCardData[] = [
     },
     technologies: [
       { name: "NodeJS", icon: "/icons/nodejs.svg" },
-      { name: "OpenAI", icon: "/icons/openai.svg" },
+      { name: "OpenAI API", icon: "/icons/openai.svg" },
       { name: "Python", icon: "/icons/python.svg" },
     ],
     githubUrl: "https://github.com/Romain-Brgn/LeadMagnetNaturo",
@@ -55,22 +55,24 @@ const projectCards: ProjectCardData[] = [
   },
   {
     title: {
-      en: "Personal Blog for Technology Watch",
-      fr: "Blog Personnel Veille Technologique",
+      en: "Blog with built-in LLM",
+      fr: "Blog avec LLM intégré",
     },
     description: {
-      en: "Retrieval of articles via RSS feeds, storage, and display of relevant articles. AI implementation to search for topics within the archives.",
-      fr: "Récupération d'article via flux rss, stockage et affichage des articles pertinents. Implémentation IA pour rechercher des sujets au sein des archives.",
+      en: "Retrieving articles via RSS feeds, storing and generating embeddings with OpenAI, semantic search, and generating responses using LLM.",
+      fr: "Récupération d'articles via flux rss, stockage et génération d'embeddings avec OpenAI, recherche sémantique, génération de réponse via LLM.",
     },
     features: {
-      en: ["Data Processing", "AI Implementation", "Automation"],
-      fr: ["Traitement de Données", "Implémentation IA", "Automatisation"],
+      en: ["Data Processing", "Embeddings", "Automation"],
+      fr: ["Trait. de Données", "Embeddings", "Automatisation"],
     },
     technologies: [
-      { name: "Python", icon: "/icons/python.svg" },
-      { name: "NodeJS", icon: "/icons/nodejs.svg" },
+      { name: "ASP.NET Core", icon: "/icons/aspnet.svg" },
+      { name: "OpenAI API", icon: "/icons/openai.svg" },
+      { name: "PostgreSQL", icon: "/icons/postgresql.svg" },
     ],
-    githubUrl: "https://github.com/Romain-Brgn",
+    githubUrl: "https://github.com/Romain-Brgn/technology-watch-blog",
+    liveUrl: "https://blog.romain-brgn.work",
   },
 ];
 
